@@ -1,0 +1,45 @@
+{
+    "name": "less-plugins",
+    "version": "0.0.1",
+    "description": "Plugins for less",
+    "homepage": "http://lesscss.org",
+    "author": {
+        "name": "Luke Page"
+    },
+    "contributors": [
+        "The Core Less Team"
+    ],
+    "bugs": {
+        "url": "https://github.com/less/less-plugins.js/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/less/less-plugins.js.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/less/less-plugins.js/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "less": ">=1.5.1"
+    },
+    "devDependencies": {
+        "diff": "~1.0",
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-shell": "~0.3.1",
+        "mime": "1.2.x"
+    },
+    "keywords": [
+        "less plugins"
+    ]
+}
