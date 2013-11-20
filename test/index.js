@@ -8,4 +8,6 @@ console.log("\n" + stylize("LESS - Plugins", 'underline') + "\n");
 lessTester.runTestSet(
     {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugins.InlineImages()] },
     "inline-images/");
-
+lessTester.runTestSet(
+    {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugins.AutoPrefix()] },
+    "auto-prefix/");
