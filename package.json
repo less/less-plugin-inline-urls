@@ -1,7 +1,7 @@
 {
-    "name": "less-plugins",
-    "version": "0.0.1",
-    "description": "Plugins for less",
+    "name": "less-plugin-inline-images",
+    "version": "0.0.2",
+    "description": "inline images plugin",
     "homepage": "http://lesscss.org",
     "author": {
         "name": "Luke Page"
@@ -10,16 +10,16 @@
         "The Core Less Team"
     ],
     "bugs": {
-        "url": "https://github.com/less/less-plugins.js/issues"
+        "url": "https://github.com/less/less-plugin-inline-images/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/less/less-plugins.js.git"
+        "url": "https://github.com/less/less-plugin-inline-images.git"
     },
     "licenses": [
         {
             "type": "Apache v2",
-            "url": "https://github.com/less/less-plugins.js/blob/master/LICENSE"
+            "url": "https://github.com/less/less-plugin-inline-images/blob/master/LICENSE"
         }
     ],
     "main": "lib/index.js",
@@ -40,6 +40,7 @@
         "mime": "1.2.x"
     },
     "keywords": [
-        "less plugins"
+        "less plugins",
+        "inline images"
     ]
 }
