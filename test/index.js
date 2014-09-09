@@ -1,10 +1,14 @@
-var lessTest = require("less/test/less-test"),
+var less = require("less"),
+    lessTest = require("less/test/less-test"),
     lessTester = lessTest(),
-    plugins = require('../lib'),
-    stylize = require('less/lib/less/lessc_helper').stylize;
+    plugin = require('../lib'),
+    pluginManager = new less.PluginManager(less),
+    stylize = less.lesscHelper.stylize;
+
+pluginManager.addPlugin(plugin);
 
 console.log("\n" + stylize("LESS - Plugins", 'underline') + "\n");
 
 lessTester.runTestSet(
-    {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugins.InlineImages()] },
+    {strictMath: true, relativeUrls: true, silent: true, plugins: pluginManager },
     "inline-images/");

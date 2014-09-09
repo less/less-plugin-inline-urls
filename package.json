@@ -1,6 +1,6 @@
 {
-    "name": "less-plugin-inline-images",
-    "version": "0.0.2",
+    "name": "less-plugin-inline-urls",
+    "version": "0.0.3",
     "description": "inline images plugin",
     "homepage": "http://lesscss.org",
     "author": {
@@ -10,16 +10,16 @@
         "The Core Less Team"
     ],
     "bugs": {
-        "url": "https://github.com/less/less-plugin-inline-images/issues"
+        "url": "https://github.com/less/less-plugin-inline-urls/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/less/less-plugin-inline-images.git"
+        "url": "https://github.com/less/less-plugin-inline-urls.git"
     },
     "licenses": [
         {
             "type": "Apache v2",
-            "url": "https://github.com/less/less-plugin-inline-images/blob/master/LICENSE"
+            "url": "https://github.com/less/less-plugin-inline-urls/blob/master/LICENSE"
         }
     ],
     "main": "lib/index.js",
@@ -29,10 +29,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "dependencies": {
-        "less": ">=1.5.1"
-    },
     "devDependencies": {
+        "less": ">=2.0.0",
         "diff": "~1.0",
         "grunt": "~0.4.1",
         "grunt-contrib-jshint": "~0.7.2",
