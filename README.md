@@ -4,3 +4,27 @@ less-plugin-inline-urls
 =======================
 
 Converts url("image.png") to data-uri's automatically, without having to write data-uri("image.png") in your less
+
+## lessc usage
+
+```
+npm install -g less-plugin-inline-urls
+```
+
+and then on the command line,
+
+```
+lessc file.less --inline-urls
+```
+
+## Programmatic usage
+
+```
+var inline-urls-plugin = require('less-plugin-inline-urls');
+less.render(lessString, { plugins: [inline-urls-plugin] })
+  .then(
+```
+
+## Browser usage
+
+Browser usage is not supported at this time, but could be added very easily.
