@@ -1,6 +1,6 @@
 {
     "name": "less-plugin-inline-urls",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "inline images plugin",
     "homepage": "http://lesscss.org",
     "author": {
@@ -27,15 +27,11 @@
         "node": ">=0.4.2"
     },
     "scripts": {
-        "test": "grunt test"
+        "test": "node test"
     },
     "devDependencies": {
         "less": ">=2.0.0",
-        "diff": "~1.0",
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.7.2",
-        "grunt-shell": "~0.3.1",
-        "mime": "1.2.x"
+	    "diff": "^1.0"
     },
     "keywords": [
         "less plugins",

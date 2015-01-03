@@ -9,3 +9,7 @@ console.log("\n" + stylize("LESS - inline images", 'underline') + "\n");
 lessTester.runTestSet(
     {strictMath: true, relativeUrls: true, silent: true, plugins: [plugin] },
     "inline-images/");
+
+if (lessTester.finish) {
+	lessTester.finish();
+}
