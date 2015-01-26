@@ -11,13 +11,7 @@
   @part1: "test1.png";
   background-image: url("@{part1}?strip#butnotme");
 }
-/*
-Failing test case
 .e {
   @strip: "?strip";
   background-image: url("test1.png@{strip}#butnotme");
 }
-.f {
-  @var: replace("test1.png#strip", "#strip", "?strip");
-  background-image: url(@var);
-}*/
