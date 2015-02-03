@@ -27,4 +27,4 @@ less.render(lessString, { plugins: [inline-urls-plugin] })
 
 ## Browser usage
 
-Browser usage is not supported at this time, but could be added very easily.
+Browser usage is not supported at this time and is blocked on data-uri which does not work in the browser (not sure why you would want it to).
